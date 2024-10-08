@@ -1,9 +1,8 @@
-// alert('Create your virtual Birthday Card!')
-    // let name = document.getElementById("name");
+
 function generateCard(event) {
     
     event.preventDefault();
-    // const form = document.querySelector("#create-card");
+    
     let name = document.getElementById("name");
     let head = document.querySelector("h1");
     console.log(head)
@@ -26,23 +25,13 @@ function generateCard(event) {
     let giftsArr = [gift1, gift2, gift3];
     const giftList = document.createElement("ul");
     cardBody.appendChild(giftList);
-    for (i = 0; i <= giftsArr.length; i++) {
+    for (i = 0; i <= giftsArr.length - 1; i++) {
         let li = document.createElement("li")
         li.innerHTML = giftsArr[i].value;
         giftList.appendChild(li);
 
 
     }
-
-    
-    
-
-    // let cardname = name.value;
-    // let h1 = document.getElementById("head");
-    // let cardHead = document.querySelector(".card-header");
-    // let godOfWar = document.createElement("p");
-    // godOfWar.textContent = "hahahaha"
-    // cardHead.appendChild(godOfWar);
 }
 const customizeBtn = document.getElementById("button");
 
@@ -53,3 +42,11 @@ customizeBtn.addEventListener("mouseover", (e) => {
 customizeBtn.addEventListener("mouseout", (e) => {
     customizeBtn.style.backgroundColor = "green";
 })
+
+const resetBtn = document.getElementById("reset-section").firstElementChild;
+resetBtn.addEventListener("click", (event) => {
+    window.location.reload();
+    
+
+})
+console.log('resetBtn --->', resetBtn)
