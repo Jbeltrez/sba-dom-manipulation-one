@@ -37,9 +37,9 @@ function generateCard(event) {
     
     
 
-    let cardname = name.value;
-    let h1 = document.getElementById("head");
-    let cardHead = document.querySelector(".card-header");
+    // let cardname = name.value;
+    // let h1 = document.getElementById("head");
+    // let cardHead = document.querySelector(".card-header");
     // let godOfWar = document.createElement("p");
     // godOfWar.textContent = "hahahaha"
     // cardHead.appendChild(godOfWar);
