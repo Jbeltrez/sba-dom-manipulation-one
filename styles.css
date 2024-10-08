@@ -19,7 +19,9 @@ body {
 .card-header h1 {
     color: #6973ff;
 }
-
+.card-header h1:hover {
+    color: #e30e0e;
+}
 
 .card-body p {
     font-size: 18px;
