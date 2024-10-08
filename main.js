@@ -1,10 +1,10 @@
+alert('Create your virtual Birthday Card!')
 function generateCard(event) {
 
-    // event.preventDefault();
+    event.preventDefault();
     const form = document.querySelector("#create-card");
-    form.remove();
 
-
+    
 }
 
 const customizeBtn = document.getElementById('button');
