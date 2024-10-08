@@ -2,7 +2,7 @@
     // let name = document.getElementById("name");
 function generateCard(event) {
     
-    // event.preventDefault();
+    event.preventDefault();
     // const form = document.querySelector("#create-card");
     let name = document.getElementById("name");
     let head = document.querySelector("h1");
