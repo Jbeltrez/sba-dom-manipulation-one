@@ -1,4 +1,4 @@
-let person = prompt("Please enter your name", "Harry Potter");
+alert('Welcome to Your virtual Birthday Card creator')
 
 if (person != null) {
     let name = document.createElement("h5")
