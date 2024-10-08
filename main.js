@@ -12,8 +12,7 @@ const giftList = document.querySelector('.gifts');
 
 addGift.addEventListener('click', (e) => {
     newGift = document.createElement("li");
-    newGift.textContent = "new gift";
-    giftList.appendChild(newGift)
+    newGift.innerHTML = "new gift";
 
     
 })
