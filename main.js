@@ -1,14 +1,20 @@
-alert('Create your virtual Birthday Card!')
+// alert('Create your virtual Birthday Card!')
 function generateCard(event) {
 
     event.preventDefault();
-    const form = document.querySelector("#create-card");
+    // const form = document.querySelector("#create-card");
+    let name = document.getElementById("name");
+    let cardname = name.value;
+    let h1 = document.getElementById("head");
+    h1.innerHTML += cardname.innerHTML;
+
+    
 
     
 }
 
-const customizeBtn = document.getElementById('button');
-customizeBtn.addEventListener('click', generateCard);
+const customizeBtn = document.getElementById("button");
+customizeBtn.addEventListener("click", generateCard(e));
 // const card = document.createElement('div');
 // const cardHeader = document.createElement('div');
 // const message = document.createElement('p')
