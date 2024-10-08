@@ -10,18 +10,37 @@
     <title>Document</title>
 </head>
 <body>
+        <div id="cardinputs">
+            <label for="Name">Who's Birthday is it today?</label><br>
+            <input type="text" name="name" id="name" required><br>
+
+            <label for="Message">Enter a Bday Message</label><br>
+        <textarea name="message" id="message" required></textarea><br>
+
+        <label for="gift1">Add A gift!</label>
+        <input type="text" name="gift1" id="gift1" required><br>
+        <label for="gift2">Add A gift!</label>
+        <input type="text" name="gift2" id="gift2"><br>
+
+        <button id="button" type="button">
+            Customize Your Card!
+
+        </button>
+
+        </div>
         
         <div class="card">
-            <div class="card-header" id="top">
+            <div class="card-header">
                 <h1>Happy Birthday!</h1>
             </div>
             <div class="card-body">
-                <p id="message">Wishing you all the best on your special day!</p>
+                <!-- <p id="message">Wishing you all the best on your special day!</p> -->
                 <ul class="gifts">
-                    <li id="gift1">Gift card</li>
+                    <p>Gifts</p>
+                    <!-- <li id="gift1">Gift card</li>
                     <li id="gift2">Dinner</li>
                     <li id="gift3">100 bucks</li>
-                    <li id="gift-adder">Add Gift</li>
+                    <li id="gift-adder">Add Gift</li> -->
                 </ul>
                 <p>Do you like your gifts?</p>
                 <input type="radio" id="yes" name="liked-gifts" value="yes">
@@ -31,7 +50,7 @@
 
             </div>
             <div class="card-footer">
-                <button id="customize-btn">Customize Message</button>
+                <!-- <button id="customize-btn">Customize Message</button> -->
             </div>
         </div>
     

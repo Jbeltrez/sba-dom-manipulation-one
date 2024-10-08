@@ -4,8 +4,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 140vh;
     margin: 0;
+}
+.create-card {
+    justify-content: left;
 }
 
 .card {
