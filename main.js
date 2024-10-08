@@ -12,10 +12,16 @@ function generateCard(event) {
     let message = document.getElementById("msg");
     console.log(message)
     let inputMessage = document.createElement("p");
+    if (inputMessage) {
+        alert("what a thoughtful message!")
+    }
     console.log(inputMessage)
     inputMessage.innerHTML = message.value
     let cardBody = document.querySelector(".card-body");
     cardBody.appendChild(inputMessage);
+    let gift1 = document.getElementById("gift1");
+    let gift2 = document.getElementById("gift2");
+    let gift3 = document.getElementById("gift3");
     
     
 
