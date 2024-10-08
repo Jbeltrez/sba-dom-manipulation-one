@@ -4,11 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 140vh;
+    height: 100vh;
     margin: 0;
-}
-.create-card {
-    justify-content: left;
 }
 
 .card {
@@ -19,11 +16,9 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
 .card-header h1 {
-    color: #6973ff;
-}
-.card-header h1:hover {
-    color: #e30e0e;
+    color: #ff69b4;
 }
 
 .card-body p {
@@ -45,6 +40,6 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #e30e0e;
-}
+/* button:hover {
+    background-color: #1c14ff;
+} */
